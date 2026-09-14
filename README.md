@@ -4,6 +4,8 @@ A small Rust HTTP server that emulates the update endpoint used by the Call of D
 
 It serves the update manifest and payload expected by the client. The original updater verifies downloaded files using RSA-PSS with a Tiger hash, so arbitrary custom files require the client to trust a matching public key.
 
+![Client](client-screenshot.png)
+
 ## Build
 
 ```bash
