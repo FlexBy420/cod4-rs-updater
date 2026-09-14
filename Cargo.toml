@@ -1,0 +1,11 @@
+[package]
+name = "cod4-update-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+base64 = "=0.22.1"
+rsa = "=0.9.10"
+tiger = "=0.2.1"
+serde_json = "=1.0.151"
+
